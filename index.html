@@ -14,6 +14,7 @@ description: "Programming from the ground up"
         {% endif %}
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a>
 </div>
 <hr>
 {% endfor %}

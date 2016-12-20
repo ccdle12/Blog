@@ -6,6 +6,7 @@ date:       2016-12-11 12:00:00
 author:     "Chris Coverdale"
 header-img: "img/post-bg-primitives2.jpg"
 tags:       ["Java", "Fundamentals"]
+comments: true
 ---
 <h2 class="section-heading">The Primitives</h2>
 <p>There are 8 primitive data types in the Java language. Understanding these data types is important.</p>
